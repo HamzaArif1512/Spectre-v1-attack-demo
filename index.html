@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spectre v1 Research</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f2f2f2;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .links {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Spectre v1 Attack Demonstration</h1>
+
+    <p class="links">
+        <a href="https://drive.google.com/drive/folders/1Jn0HmO5uHQbtYioU_AORmg5Oq5mWLsUK" target="_blank">Watch Video</a> |
+        <a href="your-pdf-link-here" target="_blank">Read Paper</a>
+    </p>
+
+    <h2>About Spectre v1</h2>
+    <p>
+        Spectre v1 is a groundbreaking computer vulnerability that doesn't attack software bugs, but rather exploits how modern processors work.
+        Think of it like this: your computer's processor is so fast that it tries to predict what you'll do next. Spectre tricks these predictions
+        into briefly revealing information that should stay hidden.
+    </p>
+
+    <h3>Key Points:</h3>
+    <ul>
+        <li><strong>Not a software bug</strong>: Attacks the processor itself</li>
+        <li><strong>Universal</strong>: Affects phones, computers, cloud servers</li>
+        <li><strong>Hard to detect</strong>: Leaves minimal traces</li>
+        <li><strong>Fundamental</strong>: Requires hardware redesigns to fully fix</li>
+    </ul>
+
+    <h2>Our Research</h2>
+    <p>
+        We demonstrated Spectre v1 using both C and Rust programming languages, showing that the vulnerability exists
+        regardless of programming language safety features. While modern systems have protections, the core issue remains
+        present in all modern processors.
+    </p>
+
+    <p><em>Academic research project - for educational purposes only</em></p>
+
+</body>
+</html>
